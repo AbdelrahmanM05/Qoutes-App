@@ -1,10 +1,3 @@
-function active() {
-  let links = document.querySelectorAll("a");
-  for (let i = 0; i < links.length; i++) {
-      links[0].classList.add("btn");
-  }
-}
-
 function displayQuote() {
   var quotes = [
     {
